@@ -1,0 +1,13 @@
+<engine:UXML xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Workspaces/Editor/WorkspaceStyle.uss?fileID=7433441132597879392&amp;guid=0b54661400065d04c8226e3c46f15441&amp;type=3#WorkspaceStyle" />
+    <engine:VisualElement name="Root" style="flex-grow: 1; flex-shrink: 0;">
+        <engine:VisualElement name="GraphRoot" class="graph-area" />
+        <editor:Toolbar name="Toolbar" style="top: auto; bottom: 0; left: auto; position: relative;">
+            <editor:ToolbarButton text="Save" name="SaveButton" />
+            <editor:ToolbarSearchField />
+            <engine:Label name="PathText" style="-unity-text-align: middle-right;" />
+            <editor:ToolbarSpacer style="flex-grow: 1;" />
+            <engine:Label name="DebugText" style="-unity-text-align: middle-right;" />
+        </editor:Toolbar>
+    </engine:VisualElement>
+</engine:UXML>

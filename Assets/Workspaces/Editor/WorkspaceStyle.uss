@@ -1,0 +1,97 @@
+.graph-area {
+    flex-grow: 1;
+    margin: 0;
+    flex-shrink: 0;
+    min-height: 256px;
+    background-image: url("project://database/Assets/Workspaces/Editor/Textures/GridBackground2.png?fileID=2800000&guid=8b70e717ac1876e4086db0041598d13f&type=3#GridBackground2");
+    -unity-background-scale-mode: scale-to-fit;
+    background-size: 128px;
+    background-position-y: 0;
+    background-position-x: 0;
+    background-repeat: repeat repeat;
+}
+
+.graph-area--dropping {
+}
+
+.graph-item {
+    align-self: auto;
+    background-color: var(--unity-colors-box-background);
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: rgb(34, 34, 34);
+    padding: 2px;
+    position: absolute;
+    flex: 1;
+}
+
+.graph-item-icon {
+    align-self: center;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.graph-item-label {
+    margin-top: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+    -unity-text-align: middle-center;
+}
+
+.graph-item-label--thin {
+    width: auto;
+}
+.graph-item-label--icon {
+    width: 56px;
+}
+.graph-item-label--expanded {
+    width: 128px;
+}
+
+.graph-item--script {
+}
+
+.graph-item--missing {
+    opacity: 0.8;
+    -unity-font-style: italic;
+    color: rgb(255, 65, 65);
+}
+
+.graph-item--mesh {
+    height: 128px;
+    width: 128px;
+}
+
+.graph-item--mesh-preview {
+}
+
+.graph-item:hover {
+    border-color: #c2c2c2;
+    color: #c2c2c2;
+}
+
+.graph-item--script:hover {
+    border-color: #5db550;
+    color: #5db550;
+}
+
+.graph-item--texture:hover {
+    border-color: #7fd6fc;
+    color: #7fd6fc;
+}
+
+.graph-item--locked {
+}
+
+.graph-item--locked:hover {
+}
+
+.graph-item-lock {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -4px;
+    top: -4px;
+    background-image: var(--unity-icons-lock-checked);
+}

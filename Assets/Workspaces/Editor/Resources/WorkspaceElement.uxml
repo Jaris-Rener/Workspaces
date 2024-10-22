@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Workspaces/Editor/WorkspaceStyle.uss?fileID=7433441132597879392&amp;guid=0b54661400065d04c8226e3c46f15441&amp;type=3#WorkspaceStyle"/>
+    <ui:Image name="MainImage" class="graph-item-icon" style="flex-grow: 1;"/>
+    <ui:Label text="Label" name="Label" class="graph-item-label"/>
+    <ui:VisualElement name="LockIcon" class="graph-item-lock" style="top: 0; right: 0;"/>
+</ui:UXML>
